@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #001f3f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url('https://via.placeholder.com/1200x600.png?text=Hero+Image');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  background-color: #FF4136;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #FF8552;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background-color: #F1F1F1;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px
+margin: 1rem;
+background-color: white;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 0.5rem;
+overflow: hidden;
+}
+
+.game img {
+width: 100%;
+height: auto;
+}
+
+.game h3 {
+font-size: 1.5rem;
+margin: 1rem;
+}
+
+.game p {
+font-size: 1.2rem;
+margin: 1rem;
+}
+
+.game button {
+background-color: #FF4136;
+color: white;
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 0.5rem;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+cursor: pointer;
+}
+
+.game button:hover {
+background-color: #FF8552;
+}
+
+.consoles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+padding: 2rem;
+background-color: #E8E8E8;
+}
+
+.console {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 300px;
+margin: 1rem;
+background-color: white;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 0.5rem;
+overflow: hidden;
+}
+
+.console img {
+width: 100%;
+height: auto;
+}
+
+.console h3 {
+font-size: 1.5rem;
+margin: 1rem;
+}
+
+.console p {
+font-size: 1.2rem;
+margin: 1rem;
+}
+
+.console button {
+background-color: #FF4136;
+color: white;
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 0.5rem;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+cursor: pointer;
+}
+
+.console button:hover {
+background-color: #FF8552;
+}
+
+footer {
+background-color: #001f3f;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 4rem;
+}
+
+footer p {
+margin: 0;
+font-size: 1.2rem;
+}
